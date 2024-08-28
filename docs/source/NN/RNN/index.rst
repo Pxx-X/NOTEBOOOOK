@@ -3,8 +3,6 @@ RNN
 
 
 
-Contents
---------
 
 .. toctree::
    :maxdepth: 1

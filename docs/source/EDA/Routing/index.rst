@@ -1,8 +1,6 @@
 Routing
 ===================================
 
-Contents
---------
 
 .. toctree::
    :maxdepth: 1
