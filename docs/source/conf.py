@@ -16,7 +16,23 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx'
+    'sphinx.ext.intersphinx',
+	'myst_parser',
+    "sphinxcontrib.mermaid",
+    "sphinx_copybutton",
+	
+]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
+
+
+myst_enable_extensions = [
+    "tasklist",
+    "deflist",
+    "dollarmath",
 ]
 
 intersphinx_mapping = {
