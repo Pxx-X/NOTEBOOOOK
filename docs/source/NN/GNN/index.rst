@@ -1,12 +1,5 @@
-Welcome to NOTEBOOOOK!
+GNN
 ===================================
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
 
 Contents
 --------
@@ -24,10 +17,4 @@ Contents
 
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
 
