@@ -1,4 +1,5 @@
 # Configuration file for the Sphinx documentation builder.
+from recommonmark.parser import CommonMarkParser
 
 # -- Project information
 
@@ -19,16 +20,19 @@ extensions = [
     'sphinx.ext.intersphinx',
 	
     'recommonmark',
-    'sphinx_markdown_tables'
-	
 ]
+#'sphinx_markdown_tables'
 #'myst_parser',
 
 source_suffix = {
     '.rst': 'restructuredtext',
+	'.txt': 'markdown',
     '.md': 'markdown',
 }
 
+source_parsers = {
+ '.md': CommonMarkParser,
+}
 
 myst_enable_extensions = [
     "tasklist",
