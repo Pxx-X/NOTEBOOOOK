@@ -18,8 +18,8 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
 	
-    "sphinxcontrib.mermaid",
-    "sphinx_copybutton",
+    'recommonmark',
+    'sphinx_markdown_tables'
 	
 ]
 #'myst_parser',
