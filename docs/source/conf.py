@@ -17,11 +17,12 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-	'myst_parser',
+	
     "sphinxcontrib.mermaid",
     "sphinx_copybutton",
 	
 ]
+#'myst_parser',
 
 source_suffix = {
     '.rst': 'restructuredtext',
