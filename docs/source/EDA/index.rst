@@ -15,8 +15,9 @@ Contents
    :maxdepth: 2
    :caption: Contents:
 
-   EDA/index
-   NN/index
+   Placement/index
+   Routing/index
+   
 
 
 

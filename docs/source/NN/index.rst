@@ -15,8 +15,9 @@ Contents
    :maxdepth: 2
    :caption: Contents:
 
-   EDA/index
-   NN/index
+   GNN/index
+   RNN/index
+   
 
 
 
