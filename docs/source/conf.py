@@ -21,21 +21,6 @@ version = '0.1.0'
 
 extensions = ['myst_parser']
 
-#'sphinx_markdown_tables'
-#'myst_parser',
-
-source_suffix = ['.rst', '.md']
-
-source_parsers = {
- '.md': CommonMarkParser,
-}
-
-myst_enable_extensions = [
-    "tasklist",
-    "deflist",
-    "dollarmath",
-]
-
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
