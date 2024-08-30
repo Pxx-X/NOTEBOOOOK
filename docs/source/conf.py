@@ -1,5 +1,4 @@
 # Configuration file for the Sphinx documentation builder.
-from recommonmark.parser import CommonMarkParser
 
 # -- Project information
 
